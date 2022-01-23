@@ -17,13 +17,14 @@
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 0;
+  z-index: -1;
   /* Добавила позицию. выше установили ограничения для секции */
 }
 
 .logo {
   width: 183px;
   height: 32px;
+  z-index: 0;
 }
 
 .logo_place_header {
@@ -40,22 +41,23 @@
     left: 64px;
     line-height: 96px;
     font-size: 102px;
-    font-weight: 500;
+    font-weight: 550;
     position: absolute;
     margin: auto;
     border: solid red;
+    z-index: 2;
 }
 
 .header__subtitle {
-    width: 388px; /* Чуть увеличила также ка макетее */
+    width: 400px; /* Чуть увеличила также ка макетее */
     left: 64px;
     bottom: 30px;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
     position: absolute;
+    z-index: 3;
 
-    border: solid red;
 }
 
 .header__link {
@@ -63,11 +65,13 @@
 }
 
 .header__main-illustration {
-width: 765px;
-height: 608px;
-position: absolute;
-right: 0;
-bottom: 0;
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  order: 2;
+  z-index: 3;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -76,22 +80,110 @@ bottom: 0;
   width: 568px;
   position: absolute;
   right: 0;
-  margin-top: 64px;
   background-color: #2f80ed;
+  z-index: 1;
 
+  border: solid red; /*remove!*/
 }
 
+.description {
+  min-width: 784px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+
+  border: solid red; /*remove!*/
+}
+
+.description__two-columns {
+  width: 80%;
+  padding: 100px 0;
+  display: flex;
+
+  border: solid red; /*remove!*/
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+
+  border: solid red; /*remove!*/
+}
+
+.two-columns__main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
+  border: solid red; /*remove!*/
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.digits {
+  min-width: 784px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  border: solid orange; /*remove!*/
+  min-height: 600px;
+
+}
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  margin: auto;
+  padding: 0;
+  position: absolute;
+
+  border: solid red; /*remove!*/
+}
+
+.section-subtitle {
+  line-height: 34px;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: normal;
+  position: absolute;
+
+  border: solid red; /*remove!*/
+}
+
+.table {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 60px;
+  justify-content: space-around;
+  width: 1100px;
+  margin: 60px auto 100px;
+  position: absolute;
 
 
 
+  border: solid red; /*remove!*/
+}
 
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
 
-
-
-
-
-
-
+  border: solid rgb(0, 255, 234); /*remove!*/
+}
 
 
 
