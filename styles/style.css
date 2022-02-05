@@ -54,6 +54,7 @@
   position: absolute;
   z-index: 2;
   color: #000000;
+  margin: 0;
 }
 
 .header__link {
@@ -309,7 +310,7 @@
   width: 877px;
   height: 877px;
   position: absolute;
-  background-image: url(../../images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   right: -210px;
   top: 0;
