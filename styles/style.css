@@ -179,6 +179,97 @@
   text-align: center;
 }
 
+.video {
+  margin: 100px 0 0;
+}
+
+.section-title_video {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle_video {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.video__iframes {
+  margin: 50px auto -200px; /* ??? */
+  display: flex;
+  justify-content: center;
+}
+
+.video__iframe:first-child {
+ margin-right: 20px;
+}
+
+.oakley {
+  padding: 160px 0 0;
+  background-color: #f2f2f2;
+}
+
+.two-columns_oakley {
+  margin: 0 auto;
+}
+
+.feynman {
+  min-width: 784px;
+  min-height: 890px;
+  background-color: #f2f2f2;
+  z-index: 0;
+  position: relative;
+  padding: 100px 0 0;
+  box-sizing: border-box;
+}
+
+.feynman__title {
+  width: 648px;
+  line-height: 1.15;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 700;
+  z-index: 3;
+  margin: 0 auto 70px;
+  padding: 0;
+  color: #000000;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 3;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+
+.feynman__link {
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+  color: #2f80ed;
+  z-index: 3;
+  position: absolute;
+  text-decoration: none;
+}
+
+.feynman__pic {
+  width: 867px;
+  height: 637px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 .digits {
   margin: 100px auto;
   color: #000000;
@@ -236,58 +327,7 @@
   margin: 20px 0 0;
 }
 
-.feynman {
-  min-width: 784px;
-  min-height: 890px;
-  background-color: #f2f2f2;
-  z-index: 0;
-  position: relative;
-  margin-top: 100px;
-}
 
-.feynman__title {
-  width: 648px;
-  line-height: 1.15;
-  text-align: center;
-  font-size: 120px;
-  font-weight: 700;
-  z-index: 3;
-  margin: 100px auto 70px;
-  padding: 100px 0 0;
-  color: #000000;
-}
-
-.feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  z-index: 3;
-  text-align: center;
-  color: #000000;
-  margin: 0;
-}
-
-.feynman__link {
-  top: 50%;
-  right: 48px;
-  line-height: 51px;
-  font-size: 36px;
-  text-align: center;
-  font-weight: normal;
-  color: #2f80ed;
-  z-index: 3;
-  position: absolute;
-  text-decoration: none;
-}
-
-.feynman__pic {
-  width: 867px;
-  height: 637px;
-  left: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: -1;
-}
 
 .kaufman {
   padding: 90px 0;
