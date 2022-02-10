@@ -1,0 +1,11 @@
+.resorces__link {
+  color: #000;
+  text-decoration: none;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.resorces__link:hover {
+  opacity: .5;
+}
